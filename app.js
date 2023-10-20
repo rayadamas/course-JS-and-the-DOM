@@ -1,3 +1,5 @@
 document.body.addEventListener('click', function () {
- console.log("clicked");
+ //changing page heading
+ const heading = document.querySelector('h1');
+ heading.style.backgroundColor = 'red';
 });
